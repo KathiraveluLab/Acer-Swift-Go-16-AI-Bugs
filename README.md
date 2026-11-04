@@ -2,7 +2,7 @@
 
 * **Date Audited:** November 3, 2026 (`2026-11-03`)
 * **System Manufacturer & Model:** `Acer` `Swift SFG16-I71T` (Acer Swift Go 16 AI)
-* **System BIOS:** `V1.05` (`04/07/2026`) — *Pending WHQL Update: `Insyde Software Firmware Driver Update (1.0.6.0)`*
+* **System BIOS:** `V1.06` (`05/26/2026`) — *Updated via Insyde Software Firmware Driver Update (1.0.6.0)*
 * **Bug Check String:** `VIDEO_MEMORY_MANAGEMENT_INTERNAL`
 * **Stop Code:** `0x0000010E` (`0x10E`)
 * **Faulting Kernel Subsystem:** `dxgmms2.sys` (DirectX Graphics MMS2) / Intel NPU WDDM Compute Accelerator (`oem72.inf`)
@@ -17,7 +17,7 @@ An automated inspection of the local Windows Driver Store, PCI Hardware IDs, Pow
 
 | Subsystem / Parameter | Audited Pre-Fix Value (`2026-11-03`) | Post-Fix Verified Value (`2026-11-03`) | Status |
 | :--- | :--- | :--- | :--- |
-| **System Model** | `Acer Swift SFG16-I71T` (BIOS `V1.05`, `04/07/2026`) | BIOS `V1.06` (`1.0.6.0` WHQL Firmware Staged) | **RESOLVED (Pending Reboot)** |
+| **System Model** | `Acer Swift SFG16-I71T` (BIOS `V1.05`, `04/07/2026`) | BIOS `V1.06` (`05/26/2026`, Firmware `1.0.6.0` Active) | **RESOLVED & VERIFIED** |
 | **Intel(R) NPU Driver** | **`32.0.100.4509`** (`11-19-2025`, `oem72.inf`, `PCI\VEN_8086&DEV_B03E`) | **`32.0.100.4841`** (`7-24-2026`, `oem160.inf`) | **FIXED (`> 32.0.100.4512`)** |
 | **Intel(R) Graphics Driver** | `32.0.101.8356` (`11-20-2025`, `oem16.inf`, `PCI\VEN_8086&DEV_B090&SUBSYS_20421025`) | **`32.0.101.8724`** (`4-16-2026`, `oem161.inf`) | **UPDATED** |
 | **Windows Fast Startup** | `HiberbootEnabled = 1` (Enabled) | **`HiberbootEnabled = 0`** (Disabled) | **FIXED** |
